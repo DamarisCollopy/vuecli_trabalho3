@@ -3,7 +3,7 @@ const percentWidthToPix = (percent, ctx) =>
   Math.floor((ctx.canvas.width / 100) * percent);
 const percentHeightToPix = (percent, ctx) =>
   Math.floor((ctx.canvas.height / 100) * percent);
-
+///
 export default {
   inject: ['provider'],
 
